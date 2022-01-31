@@ -1,0 +1,322 @@
+{
+  "switches": [
+    {
+      "name": "S1",
+      "vlans": [
+        {
+          "interfaces": [
+            "Gi0/1",
+            "Gi0/2",
+            "Gi0/3",
+            "Gi1/0",
+            "Gi2/0",
+            "Gi2/1",
+            "Gi2/2",
+            "Gi2/3",
+            "Gi3/0",
+            "Gi3/1",
+            "Gi3/2",
+            "Gi3/3"
+          ],
+          "name": "default",
+          "status": "active",
+          "vlan_id": "1"
+        },
+        {
+          "interfaces": [],
+          "name": "Java",
+          "status": "active",
+          "vlan_id": "2"
+        },
+        {
+          "interfaces": [],
+          "name": "Rust",
+          "status": "active",
+          "vlan_id": "3"
+        },
+        {
+          "interfaces": [
+            "Gi0/0"
+          ],
+          "name": "Python",
+          "status": "active",
+          "vlan_id": "4"
+        },
+        {
+          "interfaces": [],
+          "name": "Mgmt",
+          "status": "active",
+          "vlan_id": "99"
+        },
+        {
+          "interfaces": [],
+          "name": "fddi-default",
+          "status": "act/unsup",
+          "vlan_id": "1002"
+        },
+        {
+          "interfaces": [],
+          "name": "token-ring-default",
+          "status": "act/unsup",
+          "vlan_id": "1003"
+        },
+        {
+          "interfaces": [],
+          "name": "fddinet-default",
+          "status": "act/unsup",
+          "vlan_id": "1004"
+        },
+        {
+          "interfaces": [],
+          "name": "trnet-default",
+          "status": "act/unsup",
+          "vlan_id": "1005"
+        }
+      ],
+      "trunk_interfaces": [
+        "Gi1/1",
+        "Gi1/2",
+        "Gi1/3"
+      ]
+    },
+    {
+      "name": "S2",
+      "vlans": [
+        {
+          "interfaces": [
+            "Gi0/1",
+            "Gi0/2",
+            "Gi0/3",
+            "Gi1/1",
+            "Gi2/1",
+            "Gi2/2",
+            "Gi2/3",
+            "Gi3/0",
+            "Gi3/1",
+            "Gi3/2",
+            "Gi3/3"
+          ],
+          "name": "default",
+          "status": "active",
+          "vlan_id": "1"
+        },
+        {
+          "interfaces": [
+            "Gi0/0"
+          ],
+          "name": "Java",
+          "status": "active",
+          "vlan_id": "2"
+        },
+        {
+          "interfaces": [],
+          "name": "Rust",
+          "status": "active",
+          "vlan_id": "3"
+        },
+        {
+          "interfaces": [],
+          "name": "Python",
+          "status": "active",
+          "vlan_id": "4"
+        },
+        {
+          "interfaces": [],
+          "name": "Mgmt",
+          "status": "active",
+          "vlan_id": "99"
+        },
+        {
+          "interfaces": [],
+          "name": "fddi-default",
+          "status": "act/unsup",
+          "vlan_id": "1002"
+        },
+        {
+          "interfaces": [],
+          "name": "token-ring-default",
+          "status": "act/unsup",
+          "vlan_id": "1003"
+        },
+        {
+          "interfaces": [],
+          "name": "fddinet-default",
+          "status": "act/unsup",
+          "vlan_id": "1004"
+        },
+        {
+          "interfaces": [],
+          "name": "trnet-default",
+          "status": "act/unsup",
+          "vlan_id": "1005"
+        }
+      ],
+      "trunk_interfaces": [
+        "Gi1/0",
+        "Gi1/1",
+        "Gi1/2",
+        "Gi1/3",
+        "Gi2/0"
+      ]
+    },
+    {
+      "name": "S3",
+      "vlans": [
+        {
+          "interfaces": [
+            "Gi0/1",
+            "Gi0/2",
+            "Gi0/3",
+            "Gi1/2",
+            "Gi2/0",
+            "Gi2/1",
+            "Gi2/3",
+            "Gi3/0",
+            "Gi3/1",
+            "Gi3/2",
+            "Gi3/3"
+          ],
+          "name": "default",
+          "status": "active",
+          "vlan_id": "1"
+        },
+        {
+          "interfaces": [],
+          "name": "Java",
+          "status": "active",
+          "vlan_id": "2"
+        },
+        {
+          "interfaces": [
+            "Gi0/0"
+          ],
+          "name": "Rust",
+          "status": "active",
+          "vlan_id": "3"
+        },
+        {
+          "interfaces": [],
+          "name": "Python",
+          "status": "active",
+          "vlan_id": "4"
+        },
+        {
+          "interfaces": [],
+          "name": "Mgmt",
+          "status": "active",
+          "vlan_id": "99"
+        },
+        {
+          "interfaces": [],
+          "name": "fddi-default",
+          "status": "act/unsup",
+          "vlan_id": "1002"
+        },
+        {
+          "interfaces": [],
+          "name": "token-ring-default",
+          "status": "act/unsup",
+          "vlan_id": "1003"
+        },
+        {
+          "interfaces": [],
+          "name": "fddinet-default",
+          "status": "act/unsup",
+          "vlan_id": "1004"
+        },
+        {
+          "interfaces": [],
+          "name": "trnet-default",
+          "status": "act/unsup",
+          "vlan_id": "1005"
+        }
+      ],
+      "trunk_interfaces": [
+        "Gi1/0",
+        "Gi1/1",
+        "Gi1/2",
+        "Gi1/3",
+        "Gi2/2"
+      ]
+    },
+    {
+      "name": "S4",
+      "vlans": [
+        {
+          "interfaces": [
+            "Gi0/1",
+            "Gi0/2",
+            "Gi0/3",
+            "Gi1/3",
+            "Gi2/0",
+            "Gi2/1",
+            "Gi2/2",
+            "Gi2/3",
+            "Gi3/0",
+            "Gi3/1",
+            "Gi3/2",
+            "Gi3/3"
+          ],
+          "name": "default",
+          "status": "active",
+          "vlan_id": "1"
+        },
+        {
+          "interfaces": [
+            "Gi0/0"
+          ],
+          "name": "Java",
+          "status": "active",
+          "vlan_id": "2"
+        },
+        {
+          "interfaces": [],
+          "name": "Rust",
+          "status": "active",
+          "vlan_id": "3"
+        },
+        {
+          "interfaces": [],
+          "name": "Python",
+          "status": "active",
+          "vlan_id": "4"
+        },
+        {
+          "interfaces": [],
+          "name": "Mgmt",
+          "status": "active",
+          "vlan_id": "99"
+        },
+        {
+          "interfaces": [],
+          "name": "fddi-default",
+          "status": "act/unsup",
+          "vlan_id": "1002"
+        },
+        {
+          "interfaces": [],
+          "name": "token-ring-default",
+          "status": "act/unsup",
+          "vlan_id": "1003"
+        },
+        {
+          "interfaces": [],
+          "name": "fddinet-default",
+          "status": "act/unsup",
+          "vlan_id": "1004"
+        },
+        {
+          "interfaces": [],
+          "name": "trnet-default",
+          "status": "act/unsup",
+          "vlan_id": "1005"
+        }
+      ],
+      "trunk_interfaces": [
+        "Gi1/0",
+        "Gi1/1",
+        "Gi1/2"
+      ]
+    }
+  ]
+}
